@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+}
+.menu{
+  background-color: purple;
+  width: 70px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition-duration: 0.5s;
+}
+.menu:hover{
+  width: 200px;
+  transition-duration: 0.5s;
+  
+  }
+.menu a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.menu a p{
+  opacity: 0%;
+  color: grey;
+  transition-duration: 0.2s;
+}
+.menu:hover a p{
+  opacity: 100%;
+  transition-duration: 0.5s; 
+}
+.menu:hover img{
+  width: 100px;
+  height: 100px;
+  transition-duration: 0.5s;
+}
+img{
+  transition-duration: 0.5s;
+
+}
+a{
+  font-family: Impact;
+}
+
+h3{color: #6A5ACD;
+padding-left: 200px}
+
