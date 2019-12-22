@@ -44,4 +44,13 @@ a{
 
 h3{color: #6A5ACD;
 padding-left: 200px}
-
+h1{
+  color: orange;
+  padding-left: 200px
+}
+.CPU{
+  padding-left: 200px;
+}
+.jop{
+  padding-left: 100px;
+}
